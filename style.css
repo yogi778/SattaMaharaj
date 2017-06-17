@@ -1,0 +1,93 @@
+body{
+	margin: 0 0 0 0;
+	background-color: black;
+	text-align: center;
+	background-image: url(bg-pattern.png)
+}
+a:hover{
+	color: red;
+}
+h2{
+	color: red;
+	margin-bottom: 40px;
+	text-decoration: underline;
+}
+header{
+	background-image: url(header.jpeg);
+	overflow: hidden;
+	height: 400px;
+	font-weight: bold;
+	font-size: large;
+	border: 3px red outset;
+	margin: 8px;
+	padding: 10px;
+	border-radius: 8px;
+}
+b{
+	color: red;
+}
+header p{
+	position: relative;
+	bottom: -135px;
+}
+p b{
+	font-size: 24px;
+}
+table{
+	background-color: white;
+	border: 1px thin red;
+	width: 100%;
+	border-spacing: 5px;
+	border-collapse: collapse;
+}
+th{
+	border: 1px solid red;
+}
+td{
+	border: 1px solid red;
+}
+footer{
+	color: white;
+	background-color: red;
+	bottom: 0px;
+	position: relative;
+}
+.results{
+	width: 900px;
+	margin: 0px auto 40px auto;
+
+}
+.result{
+	width: 170px;
+	background: red;
+	color: white;
+	float: left;
+	transform: rotate(13deg);
+	box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+
+}
+.result .number{
+	display: block;
+	width: 170px;
+	background: #292b2e;
+	margin: 15px 0 10px 0;
+	font-size: 23;
+	padding: 17px 0 17px 0;
+}
+.table{
+	margin-top: 200px;
+}
+.pastresults{
+	color: white;
+}
+li{
+	list-style: none;
+}
+.vermaji{
+	background-color: #D4D4D4;
+}
+.vermaji p{
+	margin-bottom: 0px;
+	color: black;
+
+}
