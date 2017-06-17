@@ -21,15 +21,14 @@ h2{
 }
 header{
 	background-image: url(header.jpeg);
-	overflow: hidden;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	height: 380px;
+	height: 21.11111128em;
 	font-weight: bold;
-	font-size: large;
-	border: 3px red outset;
-	margin: 8px;
-	padding: 10px;
+	font-size: 1.018em;
+	border: 0.16666667em red outset;
+	margin: 0.44444445em;
+	padding: 0.55555558em;
 	border-radius: 8px;
 }
 b{
@@ -37,12 +36,16 @@ b{
 }
 header p{
 	position: relative;
-	margin-top: 13.3422821%;
-	font-size: 100%;
+	margin-top: 7em;
+	font-size: 1em;
 	background-color: #FFCA30;
+		transform: rotate(-10deg);
+	box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+
 }
 p b{
 	font-size: 120%;
+
 }
 table{
 	background-color: white;
@@ -68,7 +71,7 @@ footer{
 }
 .results{
 	width: 70.422535%;
-	margin: 0px auto 40px auto;
+	margin: 50px auto 40px auto;
 
 }
 .result{
@@ -108,7 +111,6 @@ footer{
 	margin-top: 200px;
 	transform: scale(1);
 	box-shadow: 0 0 -4px -1px rgba(20, 20, 20, 0.8);
-	background-image: url(bg-pattern.png);
 }
 .pastresults{
 	color: white;
