@@ -19,8 +19,20 @@ h2{
 	margin-bottom: 40px;
 	text-decoration: underline;
 }
+header::before{
+	content: "100% Game PASS HOGA";
+	transform: rotate(-40deg);
+	position: fixed;
+	top: 4em;
+	left: .1em;
+	color: red;
+	text-decoration: underline;
+	border-bottom: red dashed;
+	border-left: red dashed;
+	border-right: red dashed;
+}
 header{
-	background-image: url(header.jpeg);
+	background-image: url(newheader.jpeg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 21.11111128em;
