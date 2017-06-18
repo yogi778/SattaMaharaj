@@ -65,8 +65,8 @@ table{
 	width: 100%;
 	border-spacing: 5px;
 	border-collapse: collapse;
-	font-size: 11px;
-	background-image: url(bg-pattern.png), linear-gradient(to top,#7b4397,#dc2430);
+	font-size: 2em;
+	background-image: url(bg-pattern.png), linear-gradient(to top,#f7f7f7,#ffb7bc);
 }
 th{
 	border: 1px solid red;
