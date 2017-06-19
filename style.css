@@ -69,6 +69,7 @@ p b{
 }
 table{
 	background-color: white;
+	opacity: .95;
 	border: 1px thin red;
 	width: 100%;
 	border-spacing: 5px;
