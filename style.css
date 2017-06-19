@@ -4,21 +4,23 @@ html{
 }
 body{
 	margin: 0 0 0 0;
-	background-color: black;
+	background-color: #0DA011;
 	text-align: center;
 	background-image: url(bg-pattern.png)
 }
 h1{
 	font-size: 150%;
-	color: white;
+	color: black;
 }
 a:hover{
 	color: red;
 }
 h2{
 	color: red;
+	font-size: 4em;
 	margin-bottom: 40px;
 	text-decoration: underline;
+	float: right;
 }
 header::before{
 	content: "100% Game PASS HOGA";
@@ -44,8 +46,13 @@ header{
 	padding: 0.55555558em;
 	border-radius: 8px;
 }
-b{
+h1 b{
 	color: red;
+	font-size: 3em;
+	float: left;
+}
+p b{
+	float: right;
 }
 header p{
 	position: fixed;
@@ -53,6 +60,7 @@ header p{
 	background-color: #FFCA30;
 		transform: rotate(-10deg);
 	box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
+	margin-top: 2emm;
 
 }
 p b{
@@ -88,7 +96,7 @@ span{
 }
 .results{
 	width: 70.422535%;
-	margin: 50px auto 40px auto;
+	margin: 0px auto 40px auto;
 
 }
 .result{
@@ -136,7 +144,15 @@ li{
 	color: black;
 
 }
-@media screen and (max-width: 780px){
+.vermaji b{
+	position: fixed;
+	bottom: 0;
+	float: right;
+	right: 0;
+	font-size: 1.4em;
+	color: white;
+}
+@media screen and (max-width: 1080px){
 	header:before{
 		content: none;
 	}
