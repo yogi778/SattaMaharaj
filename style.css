@@ -4,19 +4,22 @@ html{
 }
 body{
 	margin: 0 0 0 0;
-	background-color: #0DA011;
+	background-color: #fff;
 	text-align: center;
-	background-image: url(bg-pattern.png)
+	background-image: url(bg-pattern.png);
 }
 h1{
 	font-size: 150%;
+	color: #940000;
+}
+a{
 	color: black;
 }
 a:hover{
-	color: red;
+	color: #940000;
 }
 h2{
-	color: red;
+	color: #940000;
 	font-size: 4em;
 	margin-bottom: 40px;
 	text-decoration: underline;
@@ -28,11 +31,11 @@ header::before{
 	position: fixed;
 	top: 4em;
 	left: .1em;
-	color: red;
+	color: #940000;
 	text-decoration: underline;
-	border-bottom: red dashed;
-	border-left: red dashed;
-	border-right: red dashed;
+	border-bottom: #940000 dashed;
+	border-left: #940000 dashed;
+	border-right: #940000 dashed;
 }
 header{
 	
@@ -45,30 +48,31 @@ header{
 	margin: 0.44444445em;
 	padding: 0.55555558em;
 	border-radius: 8px;
+	background: radial-gradient(white, #940000);
 }
 h1 b{
-	color: red;
+	color: #940000;
 	font-size: 2.5em;
-	float: left;
+	position: relative;
+	top: 0;
+	right: 0;
 }
 p b{
 	float: right;
 }
 header p{
-	position: fixed;
-	font-size: 2em;
-	background-color: #FFCA30;
-		transform: rotate(-10deg);
+	font-size: 1em;
+	background-color: #940000;
 	box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
-	margin-top: 2emm;
-
+	margin-top: 2em;
 }
 p b{
 	font-size: 120%;
+	text-shadow: 1px 2px 2px #940000;
 
 }
 table{
-	background-color: white;
+	background-color: #940000;
 	opacity: .95;
 	border: 1px thin red;
 	width: 100%;
@@ -78,15 +82,15 @@ table{
 	background-image: url(bg-pattern.png), linear-gradient(to top,#f7f7f7,#ffb7bc);
 }
 th{
-	border: 1px solid red;
-	background-color: #F9CA3A;
+	border: 1px solid #940000;
+	background-color: #940000;
 }
 td{
-	border: 1px solid red;
+	border: 1px solid #940000;
 }
 footer{
 	color: white;
-	background-color: red;
+	background-color: #940000;
 	bottom: 0px;
 	position: relative;
 }
@@ -102,7 +106,7 @@ span{
 }
 .result{
 	width: 100%;
-	background: red;
+	background: #940000;
 	color: white;
 	float: left;
 	transform: rotate(13deg);
@@ -119,7 +123,7 @@ span{
 }
 .reverseresult{
 	width: 100%;
-	background: red;
+	background: #940000;
 	color: white;
 	float: left;
 	transform: rotate(-13deg);
@@ -146,12 +150,10 @@ li{
 
 }
 .vermaji b{
-	position: fixed;
 	bottom: 0;
-	float: right;
 	right: 0;
 	font-size: 3em;
-	color: white;
+	color: #940000;
 }
 @media screen and (max-width: 1080px){
 	header:before{
