@@ -4,7 +4,7 @@ html{
 }
 body{
 	margin: 0 0 0 0;
-	background-color: #15ffe6;
+	background-color: black;
 	text-align: center;
 	background-image: url(bg-pattern.png);
 }
@@ -38,7 +38,7 @@ header::before{
 	border-right: #940000 dashed;
 }
 header{
-	
+
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	height: 21.11111128em;
