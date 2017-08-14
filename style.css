@@ -11,6 +11,7 @@ body{
 h1{
 	font-size: 150%;
 	color: #940000;
+	margin-bottom: 0;
 }
 a{
 	color: white;
@@ -21,9 +22,9 @@ a:hover{
 h2{
 	color: #940000;
 	font-size: 4em;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 	text-decoration: underline;
-	float: right;
+
 }
 header::before{
 	content: "100% Game PASS HOGA";
@@ -41,7 +42,6 @@ header{
 
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	height: 21.11111128em;
 	font-weight: bold;
 	font-size: 1.018em;
 	border: 0.16666667em red outset;
@@ -62,9 +62,8 @@ p b{
 }
 header p{
 	font-size: 2em;
-	background-color: #940000;
-	box-shadow: 0 0 4px 1px rgba(20, 20, 20, 0.8);
-	margin-top: 2em;
+	margin-top: 0;
+	margin-bottom: 2.5em;
 }
 p b{
 	font-size: 120%;
